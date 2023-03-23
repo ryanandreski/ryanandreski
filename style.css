@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
 }
-.cabecalho{background-color: rgb(44, 44, 44);
+.cabecalho{background-color: rgb(56, 56, 56);
 color: rgb(255, 255, 255);
 display:flex;
 justify-content:space-evenly;
-padding: 16px 0;}
+padding: 30px 30px;}
 .cabecalho-imagem
 {
-    width:10%;
+    width:11%;
     height: 20%;
 }
 li
@@ -22,24 +22,36 @@ h1
     margin: 0 210px;
     padding: 80px 0;
     font-size: 30px;}
-h2{
+
+.escola-titulo
+{
     display:inline-block;
-    margin: 1px 2px;
+    margin: 2px 2px;
     padding: 10px 0;
     font-size: 30px;
 }
 p
 {
-    font-size:18px;
+    margin: 7px 30px;
+    padding: 4px 20px;
+    font-size: 24px;
 }
 .escola-imagem{
-    width: 40%;
+    width: 13%;
 }
 .escola {
-    background-image: linear-gradient(rgb(42, 42, 42), rgb(143, 143, 143));
+    background-image: linear-gradient(rgb(56, 56, 56),rgb(184, 184, 184));
     color: rgb(255, 255, 255);
     display:flex;
-justify-content: center;
-align-items:flex-start;
-padding: 24px 0;
+    justify-content: center;
+    align-items:center;
+    padding: 30px 0;
 }
+ .escola-conteudo
+ {
+    width:70%
+ }
+ .aluno-imagem
+ {
+    width: 20%;
+ }
