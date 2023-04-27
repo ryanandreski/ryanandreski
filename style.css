@@ -58,7 +58,7 @@ p
 height: 250px;}
 
  .estudante-icone 
- { width: 80px;}
+ { width: 60px;}
 
  .estudante-div
  {text-align:center;
@@ -71,6 +71,10 @@ height: 250px;}
 grid-template-columns: 25% 25% 25% 25%;}
 
 footer{
-    background-color: black;
-    color:white;
+    background-color: rgb(255, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+.rodape{
+    text-align: center;
 }
